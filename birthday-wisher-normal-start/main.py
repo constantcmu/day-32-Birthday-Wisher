@@ -1,4 +1,5 @@
 ##################### Normal Starting Project ######################
+import pandas as pd
 
 # 1. Update the birthdays.csv with your friends & family's details. 
 # HINT: Make sure one of the entries matches today's date for testing purposes. e.g.
@@ -8,8 +9,13 @@
 # 2. Check if today matches a birthday in the birthdays.csv
 # HINT 1: Create a tuple from today's month and day using datetime. e.g.
 # today = (today_month, today_day)
+# today = (11,3)
+
+
 
 # HINT 2: Use pandas to read the birthdays.csv
+df = pd.read_csv()
+df.head()
 
 # HINT 3: Use dictionary comprehension to create a dictionary from birthday.csv that is formated like this:
 # birthdays_dict = {
